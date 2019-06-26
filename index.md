@@ -1,37 +1,25 @@
-## Welcome to GitHub Pages
+## Welcome to my homepage
 
-You can use the [editor on GitHub](https://github.com/jasmineyoung423/jasmineyoung423/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+I'm Jasmine, a Games Interactive Media and Mobile (GIMM) Major with a Computer Science (CS) Minor, and this is a collection of my class work at Boise State University.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### CS Projects
+**CS221 Project about making test classes:**
+https://github.com/jasmineyoung423/CS221-TestClassProject
 
-### Markdown
+**CS221 Project about finding circuit pathways**
+https://github.com/jasmineyoung423/CS221-CircuitTracer
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+**CS221 Project about sorting using recursive functions**
+https://github.com/jasmineyoung423/CS-221_Sorting
 
-```markdown
-Syntax highlighted code block
+### GIMM Projects
 
-# Header 1
-## Header 2
-### Header 3
+**Code for an app created using ionic with a group of other students** *it implements Google Maps SDK*
+https://github.com/jasmineyoung423/mapTut
 
-- Bulleted
-- List
+**Code for the website created with the same group**
+https://github.com/AaronRachwitz/JAAM-Code
 
-1. Numbered
-2. List
+**Code for a website that implements Bootstrap, and showcases some of my work**
+https://github.com/jasmineyoung423/BootStrapSite
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/jasmineyoung423/jasmineyoung423/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.

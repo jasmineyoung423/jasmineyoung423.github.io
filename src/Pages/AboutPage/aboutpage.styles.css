@@ -1,0 +1,65 @@
+.profileText
+{
+  color: #F2E9E4;
+  font-family: 'Cormorant', serif;
+  font-size: 2em;
+  padding: 20px;
+}
+
+.profileImage
+{
+  border-radius: 50%;
+  object-fit: contain;
+  max-width: 90%;
+  max-height: 90%;
+  width: auto;
+  height: auto;
+}
+
+.profileCover
+{
+  height:100vh;
+  width:98vw;
+  display:flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  justify-content: center;
+}
+
+.contactGrid
+{
+    width:85vw;
+    margin: 0 auto;
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(40vw, 1fr));
+    gap: 20px;
+}
+
+.contactImage
+{
+  width: 64px;
+  margin: 10px;
+}
+
+
+@media (min-width:640px)
+{
+
+}
+
+@media (min-width:1024px)
+{
+  .profileCover
+  {
+    flex-direction: row;
+  }
+
+  .profileImageBG
+  {
+    flex-grow: 1;
+    width: 40vw;
+    align-items: center;
+    justify-content: center;
+  }
+}

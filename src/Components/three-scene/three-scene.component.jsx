@@ -29,8 +29,8 @@ class ThreeScene extends Component
         this.fpControls.constrainVertical = true;
         this.fpControls.verticalMin = 1.0;
         this.fpControls.verticalMax = 2.0;
-        this.fpControls.lon = -150;
-        this.fpControls.lat = 120;
+        this.fpControls.lon = 0;
+        this.fpControls.lat = 0;
         
         // Lights
         var spotLight = new THREE.SpotLight(0xFFFFFF);
@@ -57,6 +57,7 @@ class ThreeScene extends Component
         plane.rotation.x = -0.5 * Math.PI;
         plane.position.set(15, 0, 0);
         this.scene.add(plane);
+        this.clock = new THREE.Clock();
 
         // use ref as a mount point of the Three.js scene instead of the document.body
         this.mount.appendChild(this.renderer.domElement);
@@ -91,9 +92,9 @@ class ThreeScene extends Component
         //Rotate Models
         if (this.cube)
         {
-            this.cube.rotation.y += 0.01;
+            //this.cube.rotation.y += 0.01;
         }
-        //this.fpControls.update();
+        this.fpControls.update(this.clock.getDelta());
         //ReDraw Scene with Camera and Scene Object
         this.renderScene();
         this.frameId = window.requestAnimationFrame(this.animate);
@@ -110,7 +111,7 @@ class ThreeScene extends Component
     render() 
     {
         return(
-            <div 
+            <div id="ThreeSceneComponent"
             className="canvas"
             ref={mount => { this.mount = mount}}
             />

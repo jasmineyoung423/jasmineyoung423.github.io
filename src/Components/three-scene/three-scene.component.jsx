@@ -23,7 +23,7 @@ class ThreeScene extends Component
         //Camera
         this.camera = new THREE.PerspectiveCamera(100, width / height, 0.1, 1000);
         this.fpControls = new FirstPersonControls(this.camera, this.mount);
-        this.fpControls.lookSpeed = 0.4;
+        this.fpControls.lookSpeed = 0.1;
         this.fpControls.movementSpeed = 20;
         this.fpControls.lookVertical = true;
         this.fpControls.constrainVertical = true;

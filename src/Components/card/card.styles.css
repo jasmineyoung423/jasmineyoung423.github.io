@@ -23,13 +23,14 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    
 }
 
 .cardImage
 {
     width: 85%;
-    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border: 2px solid #F2E9E4;
 }
 
 .lightText

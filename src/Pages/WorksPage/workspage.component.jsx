@@ -1,8 +1,9 @@
 import React from 'react';
 import './workspage.styles.css';
-import stories from '../../Images/giraffe1.jpg';
-import philotes from '../../Images/panda1.jpg';
-import retail from '../../Images/puppy1.jpg';
+import stories from '../../Images/abcStories.png';
+import philotes from '../../Images/philotes2.png';
+import retail from '../../Images/retail2.png';
+import swatchB from '../../Images/swatchBook2.png';
 import {Cards} from '../../Components/card-array/cards-array.component';
 
 class WorksPage extends React.Component
@@ -14,26 +15,34 @@ class WorksPage extends React.Component
         {
             games: [
                 { name:"ABC Stories",
-                  description:"iOS AR Handwriting App available for iPads in the Apple Appstore.",
+                  description:"iOS AR Handwriting App available for iPads in the Apple Appstore. Made by the GIMM Development Team at Boise State University.",
                   image:stories,
                   imageAlt:"Image",
                   link: "https://apps.apple.com/us/app/abc-stories/id1539194514",
                   id:'01'
                 },
                 { name:"Philotes' Quest",
-                  description:"In Development: VR Puzzle Game. Made with C# in Unity. One-person project.",
+                  description:"In Development: VR Puzzle Game based on the Greek myth of Pandora's box. Made with C# in Unity. One-person project.",
                   image:philotes,
                   imageAlt:"Image",
-                  link: "",
+                  link: "/work",
                   id:'03'
                 },
                 { name:"Retail Simulator",
                   description:" In Development: PC Game. Made with C++/Blueprints in Unreal Engine. All functionality by me. Art/3D Models by Mikenna Fuit.",
                   image:retail,
                   imageAlt:"Image",
-                  link: "",
+                  link: "/work",
                   id:'04'
-                }]
+                },
+                { name:"Swatch Book",
+                  description:"Prototype of a Makeup Inventory Android App. Made with Kotlin in Android Studio. One-person project.",
+                  image:swatchB,
+                  imageAlt:"Image",
+                  link: "/works/swatchbook",
+                  id:'05'
+                }
+              ]
         };
     }
 

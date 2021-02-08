@@ -18,6 +18,7 @@ class HomePage extends React.Component
     {
       return (
         <div >
+          <h1 className="mainText">Page Still In Development</h1>
             <ThreeScene />
         </div>
       );

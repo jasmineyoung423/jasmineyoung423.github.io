@@ -15,6 +15,7 @@ import SwatchBookPage from './Pages/ProjectPages/SwatchBookPage/swatchbookpage.c
 import ABCStoriesPage from './Pages/ProjectPages/ABCStoriesPage/abcstoriespage.component';
 import PhilotesPage from './Pages/ProjectPages/PhilotesPage/philotespage.component';
 import RetailPage from './Pages/ProjectPages/RetailPage/retailpage.component';
+import MythTextPage from './Pages/ProjectPages/MythTextPage/mythtextpage.component';
 
 class App extends Component
 {
@@ -57,6 +58,7 @@ class App extends Component
           <Route exact path="/work/abcStories" component={ABCStoriesPage}/>
           <Route exact path="/work/philotes" component={PhilotesPage}/>
           <Route exact path="/work/retail" component={RetailPage}/>
+          <Route exact path="/work/mythText" component={MythTextPage}/>
           <Route exact path="/play" component={PlayPage}/>
           <Route path="/*" component={HomePage}/>
         </Switch>

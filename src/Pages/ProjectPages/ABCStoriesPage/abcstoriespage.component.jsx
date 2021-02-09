@@ -49,10 +49,10 @@ class ABCStoriesPage extends React.Component {
                 </div>
                 <div className="descriptionContainer">
                     <div className="descriptionTextContainer">
-                        <p className="descriptionText"> Show ABC Stories In Action</p>
+                        <p className="descriptionText">Here is the tutorial from GIMM Works (The development team I work on). This video shows the whole app in action. Including the AR portions!</p>
                     </div>
                     <div className="descriptionImageContainer">
-                        <iframe width="560" height="315" src="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title="Swatch Book Demo"></iframe>
+                        <iframe className="videoFrame" src="https://www.youtube.com/embed/f6TUAltSobQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title="Swatch Book Demo"></iframe>
                     </div>
                 </div>
             </div>

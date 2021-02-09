@@ -1,5 +1,4 @@
 import React from 'react';
-
 import philotes from '../../../Images/philotes2.png';
 
 class PhilotesPage extends React.Component {

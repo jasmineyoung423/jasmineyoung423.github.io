@@ -4,6 +4,7 @@ import stories from '../../Images/abcStories.png';
 import philotes from '../../Images/philotes2.png';
 import retail from '../../Images/retail2.png';
 import swatchB from '../../Images/swatchBook2.png';
+import mythText from '../../Images/mythText.png';
 import { Cards } from '../../Components/card-array/cards-array.component';
 
 class WorksPage extends React.Component {
@@ -67,12 +68,12 @@ class WorksPage extends React.Component {
           id: '07'
         },
         {
-          name: "Myth Quest Website",
-          description: "A text Adventure Website made with HTML/JavaScript. ",
+          name: "Myth Text Website",
+          description: "A text adventure Website made with HTML/JavaScript.",
           hasImage: true,
-          image: "",
-          imageAlt: "Myth Quest Home Screen",
-          link: "/work/mythQuest",
+          image: mythText,
+          imageAlt: "Myth Text Home Screen",
+          link: "/work/mythText",
           id: '07'
         }
       ]

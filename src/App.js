@@ -11,6 +11,10 @@ import HomePage from './Pages/HomePage/homepage.component';
 import AboutPage from './Pages/AboutPage/aboutpage.component';
 import WorksPage from './Pages/WorksPage/workspage.component';
 import PlayPage from './Pages/PlayPage/playpage.component';
+import SwatchBookPage from './Pages/ProjectPages/SwatchBookPage/swatchbookpage.component';
+import ABCStoriesPage from './Pages/ProjectPages/ABCStoriesPage/abcstoriespage.component';
+import PhilotesPage from './Pages/ProjectPages/PhilotesPage/philotespage.component';
+import RetailPage from './Pages/ProjectPages/RetailPage/retailpage.component';
 
 class App extends Component
 {
@@ -49,6 +53,10 @@ class App extends Component
           <Route exact path="/" component={HomePage}/>
           <Route exact path="/about" component={AboutPage}/>
           <Route exact path="/work" component={WorksPage}/>
+          <Route exact path="/work/swatchbook" component={SwatchBookPage}/>
+          <Route exact path="/work/abcStories" component={ABCStoriesPage}/>
+          <Route exact path="/work/philotes" component={PhilotesPage}/>
+          <Route exact path="/work/retail" component={RetailPage}/>
           <Route exact path="/play" component={PlayPage}/>
           <Route path="/*" component={HomePage}/>
         </Switch>

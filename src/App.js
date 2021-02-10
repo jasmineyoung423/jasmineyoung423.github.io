@@ -70,6 +70,7 @@ class App extends Component {
             <HashLink className="linkText medPadding" to="/about#contact">Contact Me!</HashLink>
           </div>
         </footer>
+        <div className="footerText d-flex align-items-center justify-content-center"><p>Icons made by <a className="lightText" href="https://www.flaticon.com/authors/dinosoftlabs" title="DinosoftLabs"> DinosoftLabs</a> from <a className="lightText" href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a></p></div>
       </div>
     );
   }

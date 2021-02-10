@@ -2,6 +2,7 @@ import React from 'react';
 import './aboutpage.styles.css';
 import gitHubImage from '../../Images/GitHub-Mark-Light-64px.png';
 import linkedInImage from '../../Images/LI-In-Bug.png';
+import envelope from '../../Images/envelope.png';
 
 class AboutPage extends React.Component {
     render() {
@@ -16,9 +17,9 @@ class AboutPage extends React.Component {
                 </div>
                 <div className="d-flex justify-content-center" id="contact"><h2 className="pageHead">Contact Me!</h2></div>
                 <div className="contactGrid">
-                    <a className="medPadding linkText" href="https://github.com/jasmineyoung423"><img className="contactImage" src={gitHubImage} alt="GitHub Logo" />Github</a>
-                    <a className="medPadding linkText" href="https://www.linkedin.com/in/jasmine-young-a43336195/"><img className="contactImage" src={linkedInImage} alt="LinkedIn Logo" />LinkedIn</a>
-                    <a className="medPadding linkText" href="mailto:missjayoung@gmail.com"><img className="contactImage" src='' alt="Envelope" />missjayoung@gmail.com</a>
+                    <a className="medPadding linkText" href="https://github.com/jasmineyoung423"><img className="contactImage" src={gitHubImage} alt="GitHub Logo" />Github: JasmineYoung423</a>
+                    <a className="medPadding linkText" href="https://www.linkedin.com/in/jasmine-young-a43336195/"><img className="contactImage" src={linkedInImage} alt="LinkedIn Logo" />LinkedIn: Jasmine Young</a>
+                    <a className="medPadding linkText" href="mailto:missjayoung@gmail.com"><img className="contactImage" src={envelope} alt="Envelope" />Email: missjayoung@gmail.com</a>
                 </div>
             </div>
         );

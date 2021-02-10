@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.1c380230.chunk.css",
-    "main.js": "/static/js/main.fe32ef91.chunk.js",
-    "main.js.map": "/static/js/main.fe32ef91.chunk.js.map",
+    "main.js": "/static/js/main.2b7cd171.chunk.js",
+    "main.js.map": "/static/js/main.2b7cd171.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.2fd7dc15.js",
     "runtime-main.js.map": "/static/js/runtime-main.2fd7dc15.js.map",
     "static/css/2.ae9f1eb3.chunk.css": "/static/css/2.ae9f1eb3.chunk.css",
@@ -13,20 +13,29 @@
     "static/css/main.1c380230.chunk.css.map": "/static/css/main.1c380230.chunk.css.map",
     "static/js/2.9328b7d5.chunk.js.LICENSE.txt": "/static/js/2.9328b7d5.chunk.js.LICENSE.txt",
     "static/media/abcStories.fc23863b.png": "/static/media/abcStories.fc23863b.png",
+    "static/media/blockBuilder.43363e3b.png": "/static/media/blockBuilder.43363e3b.png",
+    "static/media/freeABC.3905d525.png": "/static/media/freeABC.3905d525.png",
+    "static/media/handWashing.aaa54e28.png": "/static/media/handWashing.aaa54e28.png",
+    "static/media/heraSS.7d5df08d.png": "/static/media/heraSS.7d5df08d.png",
+    "static/media/imitateABC.38a472b3.png": "/static/media/imitateABC.38a472b3.png",
     "static/media/jayCircleLogo.15799d98.png": "/static/media/jayCircleLogo.15799d98.png",
     "static/media/models.111af44a.png": "/static/media/models.111af44a.png",
     "static/media/mythLogin.a94227ac.png": "/static/media/mythLogin.a94227ac.png",
     "static/media/mythText.07466dc3.png": "/static/media/mythText.07466dc3.png",
     "static/media/philotes2.1a9a4bf0.png": "/static/media/philotes2.1a9a4bf0.png",
+    "static/media/puzzleABC.2b813822.png": "/static/media/puzzleABC.2b813822.png",
     "static/media/retail2.51357c58.png": "/static/media/retail2.51357c58.png",
+    "static/media/retailDemo.3990e0fe.png": "/static/media/retailDemo.3990e0fe.png",
     "static/media/sbWireFrame.5a94b543.png": "/static/media/sbWireFrame.5a94b543.png",
-    "static/media/swatchBook2.a0468345.png": "/static/media/swatchBook2.a0468345.png"
+    "static/media/swatchBook2.a0468345.png": "/static/media/swatchBook2.a0468345.png",
+    "static/media/voxelPlugin.77351d2c.png": "/static/media/voxelPlugin.77351d2c.png",
+    "static/media/washCard.5b3f7099.png": "/static/media/washCard.5b3f7099.png"
   },
   "entrypoints": [
     "static/js/runtime-main.2fd7dc15.js",
     "static/css/2.ae9f1eb3.chunk.css",
     "static/js/2.9328b7d5.chunk.js",
     "static/css/main.1c380230.chunk.css",
-    "static/js/main.fe32ef91.chunk.js"
+    "static/js/main.2b7cd171.chunk.js"
   ]
 }

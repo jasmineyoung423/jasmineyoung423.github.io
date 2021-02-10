@@ -5,6 +5,8 @@ import philotes from '../../Images/philotes2.png';
 import retail from '../../Images/retail2.png';
 import swatchB from '../../Images/swatchBook2.png';
 import mythText from '../../Images/mythText.png';
+import blockB from '../../Images/blockBuilder.png';
+import handwash from '../../Images/handWashing.png';
 import { Cards } from '../../Components/card-array/cards-array.component';
 
 class WorksPage extends React.Component {
@@ -15,7 +17,7 @@ class WorksPage extends React.Component {
       games: [
         {
           name: "ABC Stories",
-          description: "iOS AR Handwriting App available for iPads in the Apple Appstore. Made by the GIMM Development Team at Boise State University.",
+          description: "iOS AR Handwriting App available for iPads in the Apple Appstore. Made by the GIMM Development Team 'GIMM Works' at Boise State University.",
           hasImage: true,
           image: stories,
           imageAlt: "ABC Stories App Icon",
@@ -33,7 +35,7 @@ class WorksPage extends React.Component {
         },
         {
           name: "Retail Simulator",
-          description: " In Development: PC Game. Made with C++/Blueprints in Unreal Engine. All functionality by me. Art/3D Models by Mikenna Fuit.",
+          description: "In Development: PC Game. Made with C++/Blueprints in Unreal Engine. All functionality by me. Art/3D Models by Mikenna Fuit.",
           hasImage: true,
           image: retail,
           imageAlt: "Retail Simulator Title Screen",
@@ -53,18 +55,18 @@ class WorksPage extends React.Component {
           name: "Block Builder",
           description: "A block building game made with Blueprints in Unreal Engine 4. All functionality by me. Textures by Bridger Parker.",
           hasImage: true,
-          image: "",
+          image: blockB,
           imageAlt: "Block Builder Screenshot",
-          link: "/work/blockBuilder",
+          link: "/work/block",
           id: '06'
         },
         {
           name: "Hand Washing App",
-          description: "An AR app to help children learn proper hand washing made with C# in Unity.",
+          description: "An AR app to help young children with Autism to learn proper hand washing. Made with C# in Unity.",
           hasImage: true,
-          image: "",
+          image: handwash,
           imageAlt: "Hand Washing App Screenshot",
-          link: "/work/handWashing",
+          link: "/work/handwashing",
           id: '07'
         },
         {

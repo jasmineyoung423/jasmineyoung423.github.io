@@ -39,7 +39,7 @@ class Page extends React.Component {
             <p className="descriptionText">Project Description</p>
           </div>
           <div className="descriptionImageContainer">
-            <img className="iconImage mediumPadding" src={philotes} alt="Philotes' Quest Title Screen" />
+            <img className="iconImage mediumPadding" src="" alt="Philotes' Quest Title Screen" />
           </div>
         </div>
         <div className="descriptionContainer">

@@ -4,12 +4,6 @@ import gitHubImage from '../../Images/GitHub-Mark-Light-64px.png';
 import linkedInImage from '../../Images/LI-In-Bug.png';
 
 class AboutPage extends React.Component {
-    constructor() {
-        super();
-        this.state = {
-        };
-    }
-
     render() {
         return (
             <div>
@@ -20,13 +14,14 @@ class AboutPage extends React.Component {
                         <img className="profileImage mediumPadding" src='' alt="Jasmine Young" />
                     </div>
                 </div>
-                <div className="d-flex justify-content-center" id="contact"><h2 className="heading">Contact Me!</h2></div>
+                <div className="d-flex justify-content-center" id="contact"><h2 className="pageHead">Contact Me!</h2></div>
                 <div className="contactGrid">
                     <a className="medPadding linkText" href="https://github.com/jasmineyoung423"><img className="contactImage" src={gitHubImage} alt="GitHub Logo" />Github</a>
                     <a className="medPadding linkText" href="https://www.linkedin.com/in/jasmine-young-a43336195/"><img className="contactImage" src={linkedInImage} alt="LinkedIn Logo" />LinkedIn</a>
                     <a className="medPadding linkText" href="mailto:missjayoung@gmail.com"><img className="contactImage" src='' alt="Envelope" />missjayoung@gmail.com</a>
                 </div>
-            </div>);
+            </div>
+        );
     }
 }
 

@@ -16,23 +16,17 @@ import ABCStoriesPage from './Pages/ProjectPages/ABCStoriesPage/abcstoriespage.c
 import PhilotesPage from './Pages/ProjectPages/PhilotesPage/philotespage.component';
 import RetailPage from './Pages/ProjectPages/RetailPage/retailpage.component';
 import MythTextPage from './Pages/ProjectPages/MythTextPage/mythtextpage.component';
+import BlockPage from './Pages/ProjectPages/BlockPage/blockpage.component';
+import HandWashPage from './Pages/ProjectPages/HandWashPage/handwashpage.component';
 
-class App extends Component
-{
-  constructor()
-  {
-    super();
-    this.state = { 
-      page:'Home',
-    };
-  }
-  render(){
+class App extends Component {
+  render() {
     return (
       <div>
         <Navbar className="navHead" expand="lg" variant="dark">
           <Link className="medPadding" to="/">
             <img
-              src= {logo}
+              src={logo}
               width="30"
               height="30"
               className="d-inline-block align-top"
@@ -51,21 +45,23 @@ class App extends Component
           </Navbar.Collapse>
         </Navbar>
         <Switch>
-          <Route exact path="/" component={HomePage}/>
-          <Route exact path="/about" component={AboutPage}/>
-          <Route exact path="/work" component={WorksPage}/>
-          <Route exact path="/work/swatchbook" component={SwatchBookPage}/>
-          <Route exact path="/work/abcStories" component={ABCStoriesPage}/>
-          <Route exact path="/work/philotes" component={PhilotesPage}/>
-          <Route exact path="/work/retail" component={RetailPage}/>
-          <Route exact path="/work/mythText" component={MythTextPage}/>
-          <Route exact path="/play" component={PlayPage}/>
-          <Route path="/*" component={HomePage}/>
+          <Route exact path="/" component={HomePage} />
+          <Route exact path="/about" component={AboutPage} />
+          <Route exact path="/work" component={WorksPage} />
+          <Route exact path="/work/swatchbook" component={SwatchBookPage} />
+          <Route exact path="/work/abcStories" component={ABCStoriesPage} />
+          <Route exact path="/work/philotes" component={PhilotesPage} />
+          <Route exact path="/work/retail" component={RetailPage} />
+          <Route exact path="/work/mythText" component={MythTextPage} />
+          <Route exact path="/work/block" component={BlockPage} />
+          <Route exact path="/work/handwashing" component={HandWashPage} />
+          <Route exact path="/play" component={PlayPage} />
+          <Route path="/*" component={HomePage} />
         </Switch>
         <footer className="footer foot medPadding align-items-center">
           <div className="footChild">
-            <a className="medPadding" href="https://github.com/jasmineyoung423"><img src={gitHubImage} alt="GitHub Logo"/></a>
-            <a className="medPadding" href="https://www.linkedin.com/in/jasmine-young-a43336195/"><img className="footerImage" src={linkedInImage} alt="LinkedIn Logo"/></a>
+            <a className="medPadding" href="https://github.com/jasmineyoung423"><img src={gitHubImage} alt="GitHub Logo" /></a>
+            <a className="medPadding" href="https://www.linkedin.com/in/jasmine-young-a43336195/"><img className="footerImage" src={linkedInImage} alt="LinkedIn Logo" /></a>
           </div>
           <div className="footChild">
             <p className="footerText medPadding">Jasmine Young 2021</p>

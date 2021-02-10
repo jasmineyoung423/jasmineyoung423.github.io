@@ -5,17 +5,10 @@ import ThreeScene from '../../Components/three-scene/three-scene.component'
 
 
 class HomePage extends React.Component {
-  constructor() {
-    super();
-    this.state =
-    {
-    };
-  }
-
   render() {
     return (
       <div >
-        <h1 className="mainText">Page Still In Development</h1>
+        <div className="d-flex justify-content-center"><h1 className="pageHead">Page Still In Development</h1></div>
         <ThreeScene />
       </div>
     );

@@ -11,17 +11,17 @@ class MythTextPage extends React.Component {
         <div className="cardGrid">
           <div className="techContainer">
             <p className="techHead">JavaScript/PHP</p>
-            <p className="techText"> I used php for routing and database connection (for login storage). And JavaScript was used for the text adventure (Interactive Fiction) game portion of the website.</p>
+            <p className="techText">I used php for routing and database connection (for login storage). And JavaScript was used for the text adventure (Interactive Fiction) game portion of the website.</p>
             <a className="techText lightText" href="https://github.com/jasmineyoung423/site">GitHub Code Repository</a>
           </div>
           <div className="techContainer">
             <p className="techHead">HTML/CSS</p>
-            <p className="techText"> The requirements for this assignment stipulated that I was to use html for the main code, and css only. Bootstrap was not allowed. And with my site being a game. That was what I focused on during development.</p>
+            <p className="techText">The requirements for this assignment stipulated that I was to use HTML for the main code, and CSS only. Bootstrap was not allowed. And with my site being a game. That was what I focused on during development.</p>
           </div>
           <div className="techContainer">
             <p className="techHead">Heroku</p>
-            <p className="techText"> Heroku is hosting the site, as well as hosts the ClearDB MySQL database. The code is hosted on GitHub.</p>
-            <a className="techText lightText" href="https://tranquil-wave-76416.herokuapp.com/">Myth Quest on Heroku</a>
+            <p className="techText">Heroku is hosting the site, as well as hosts the ClearDB MySQL database. The code is hosted on GitHub.</p>
+            <a className="techText lightText" href="https://tranquil-wave-76416.herokuapp.com/">Myth Text on Heroku</a>
           </div>
         </div>
         <div className="d-flex justify-content-center"><h2 className="techHead">Project Breakdown</h2></div>
@@ -38,7 +38,7 @@ class MythTextPage extends React.Component {
             <img className="iconImage mediumPadding" src={mythLogin} alt="Myth Text Login Page Screenshot" />
           </div>
           <div className="descriptionTextContainer">
-            <p className="descriptionText">The site is still up and hosted on Heroku. It can still be played. And you can still create a login and return and login again, since the database stores that info. <a className="lightText" href="https://tranquil-wave-76416.herokuapp.com/">See Myth Quest on Heroku.</a></p>
+            <p className="descriptionText">The site is still up and hosted on Heroku. It can still be played. And you can still create a login and return and login again, since the database stores that info. <a className="lightText" href="https://tranquil-wave-76416.herokuapp.com/">See Myth Text on Heroku.</a></p>
           </div>
         </div>
       </div>

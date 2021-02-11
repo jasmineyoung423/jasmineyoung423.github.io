@@ -71,7 +71,7 @@ class WorksPage extends React.Component {
         },
         {
           name: "Myth Text Website",
-          description: "A text adventure Website made with HTML/JavaScript.",
+          description: "A text adventure website made with HTML/JavaScript.",
           hasImage: true,
           image: mythText,
           imageAlt: "Myth Text Home Screen",

@@ -10,7 +10,7 @@ class AboutPage extends React.Component {
             <div>
                 <div className="d-flex justify-content-center"><h1 className="pageHead">About Me</h1></div>
                 <div className="profileCover">
-                    <p className="profileText boxText">Hello! My name is Jasmine Young. I am a Games Interactive Media and Mobile (GIMM) Senior at Boise State University. I work part-time as a developer for the GIMM department. I mostly work with Swift in Xcode or with C# in Unity. When I'm not coding, I'm usually reading, sewing, watching YouTube, or playing with makeup.</p>
+                    <p className="profileText boxText">Hello! My name is Jasmine Young. I am a Games Interactive Media and Mobile (GIMM) Senior at Boise State University. I work part-time as a developer for the GIMM department developement team GIMM Works. I mostly work with Swift in Xcode or with C# in Unity. When I'm not coding, I'm usually reading, sewing, watching YouTube, or playing with makeup.</p>
                     <div className="profileImageBG">
                         <img className="profileImage mediumPadding" src='' alt="Jasmine Young" />
                     </div>

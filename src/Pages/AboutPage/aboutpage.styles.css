@@ -6,12 +6,13 @@
 }
 
 .profileImage {
-  border-radius: 50%;
+  border-radius: 10%;
   object-fit: contain;
-  max-width: 90%;
-  max-height: 90%;
+  max-width: 80%;
+  max-height: 80%;
   width: auto;
   height: auto;
+  border: 2px solid #F2E9E4;
 }
 
 .profileCover {

@@ -3,6 +3,7 @@ import './aboutpage.styles.css';
 import gitHubImage from '../../Images/GitHub-Mark-Light-64px.png';
 import linkedInImage from '../../Images/LI-In-Bug.png';
 import envelope from '../../Images/envelope.png';
+import jasmine from '../../Images/20210126_072906.jpg';
 
 class AboutPage extends React.Component {
     render() {
@@ -12,7 +13,7 @@ class AboutPage extends React.Component {
                 <div className="profileCover">
                     <p className="profileText boxText">Hello! My name is Jasmine Young. I am a Games Interactive Media and Mobile (GIMM) Senior at Boise State University. I work part-time as a developer for the GIMM department developement team GIMM Works. I mostly work with Swift in Xcode or with C# in Unity. When I'm not coding, I'm usually reading, sewing, watching YouTube, or playing with makeup.</p>
                     <div className="profileImageBG">
-                        <img className="profileImage mediumPadding" src='' alt="Jasmine Young" />
+                        <img className="profileImage mediumPadding" src={jasmine} alt="Jasmine Young" />
                     </div>
                 </div>
                 <div className="d-flex justify-content-center" id="contact"><h2 className="pageHead">Contact Me!</h2></div>

@@ -21,7 +21,7 @@ class RetailPage extends React.Component {
                 <div className="techContainer">
                     <p className="techHead">ART</p>
                     <p className="techText"> All models, textures, and sounds were created or sourced by Mikenna Fuit.</p>
-                    <a className="techText lightText" href="">Mikenna's Portfolio</a>
+                    <a className="techText lightText" href="/">Mikenna's Portfolio</a>
                 </div>
 
             </div>

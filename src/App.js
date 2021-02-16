@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import './App.css';
 import gitHubImage from './Images/GitHub-Mark-Light-32px.png';
 import linkedInImage from './Images/LI-In-Bug.png';
-import logo from './Images/jayCircleLogo.png';
+import logo from './Images/jy_logo.png';
+import name from './Images/JY_Name_only.png';
 import { Navbar, Nav } from 'react-bootstrap';
 import { Switch, Route, Link } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
@@ -27,13 +28,16 @@ class App extends Component {
           <Link className="medPadding" to="/">
             <img
               src={logo}
-              width="30"
-              height="30"
-              className="d-inline-block align-top"
+              className="d-inline-block align-top logo"
               alt="Jasmine Young Logo"
             />
           </Link>
-          <Link className="medPadding navLink navBrand" to="/">Jasmine Young</Link>
+          <Link className="medPadding" to="/"><img
+              src={name}
+              height="50"
+              className="d-inline-block align-top nameLogo"
+              alt="Jasmine Young"
+            /></Link>
           <Navbar.Toggle aria-controls="basic-navbar-nav"><span className="navbar-toggler-icon"></span></Navbar.Toggle>
           <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
             <Nav>

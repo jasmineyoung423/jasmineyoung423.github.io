@@ -73,6 +73,16 @@
   color: #F2E9E4;
 }
 
+.logo
+{
+  height: 60px;
+}
+
+.nameLogo
+{
+  height:30px;
+}
+
 @media (min-width:640px) {
   .navLink {
     padding-right: 0;
@@ -87,5 +97,13 @@
   }
   .navLink:hover {
     transform: scale(1.15);
+  }
+  .logo
+  {
+    height:70px;
+  }
+  .nameLogo
+  {
+    height: 50px;
   }
 }

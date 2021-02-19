@@ -44,7 +44,6 @@ class App extends Component {
               <Link className="navLink" to="/">Home</Link>
               <Link className="navLink" to="/work">Work</Link>
               <Link className="navLink" to="/about">About</Link>
-              <Link className="navLink" to="/play">Play</Link>
             </Nav>
           </Navbar.Collapse>
         </Navbar>

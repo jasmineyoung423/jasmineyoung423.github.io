@@ -3,7 +3,7 @@ import './aboutpage.styles.css';
 import gitHubImage from '../../Images/GitHub-Mark-Light-64px.png';
 import linkedInImage from '../../Images/LI-In-Bug.png';
 import envelope from '../../Images/envelope.png';
-import jasmine from '../../Images/20210126_072906.jpg';
+import jasmine from '../../Images/20210219_105719.jpg';
 
 class AboutPage extends React.Component {
     render() {

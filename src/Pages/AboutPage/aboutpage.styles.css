@@ -9,8 +9,8 @@
 .profileImage {
   border-radius: 10%;
   object-fit: contain;
-  max-width: 80%;
-  max-height: 80%;
+  max-width: 70%;
+  max-height: 70%;
   width: auto;
   height: auto;
   border: 2px solid #F2E9E4;
@@ -49,6 +49,11 @@
 @media (min-width:640px) {}
 
 @media (min-width:1024px) {
+  .profileImage
+  {
+    max-width: 50%;
+    max-height: 50%;
+  }
   .profileText
   {
     font-size: 2em;

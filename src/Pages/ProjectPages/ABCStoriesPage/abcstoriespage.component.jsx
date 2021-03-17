@@ -14,12 +14,12 @@ class ABCStoriesPage extends React.Component {
                     <div className="techContainer">
                         <p className="techHead">Swift</p>
                         <p className="techText">I helped develop ABC Stories with Swift in Xcode. I helped establish app connection to the MongoDB external database. I created the Letter Imitation, Free Write, and Puzzle portions of the app. As well as added additional models/audio to some of the AR Stories.</p>
-                        <a className="techText lightText" href="https://apps.apple.com/us/app/abc-stories/id1539194514">App in Apple App Store</a>
+                        <a className="techText lightText" href="https://apps.apple.com/us/app/abc-stories/id1539194514" rel="noopener noreferrer" target="_blank">App in Apple App Store</a>
                     </div>
                     <div className="techContainer">
                         <p className="techHead">React</p>
                         <p className="techText">I developed a lot of the front-end of the companion website to the ABC Stories app. It was my first experience with React and I learned a lot from this first project.</p>
-                        <a className="techText lightText" href="https://abcgoapp.org">ABC Go Companion Website</a>
+                        <a className="techText lightText" href="https://abcgoapp.org" rel="noopener noreferrer" target="_blank">ABC Go Companion Website</a>
                     </div>
                     <div className="techContainer">
                         <p className="techHead">GitHub</p>

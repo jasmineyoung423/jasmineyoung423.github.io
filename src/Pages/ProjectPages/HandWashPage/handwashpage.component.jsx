@@ -13,7 +13,7 @@ class HandWashPage extends React.Component {
           <div className="techContainer">
             <p className="techHead">C#</p>
             <p className="techText"> This app was developed in Unity, in order to make it cross-platform.</p>
-            <a className="techText lightText" href="https://github.com/EliKvar/GIMM310-Mobile-AR-App">GitHub Code Repository</a>
+            <a className="techText lightText" href="https://github.com/EliKvar/GIMM310-Mobile-AR-App" rel="noopener noreferrer" target="_blank">GitHub Code Repository</a>
           </div>
           <div className="techContainer">
             <p className="techHead">ARCore / ARKit</p>

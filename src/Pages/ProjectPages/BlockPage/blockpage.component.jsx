@@ -13,12 +13,12 @@ class BlockPage extends React.Component {
           <div className="techContainer">
             <p className="techHead">Blueprints</p>
             <p className="techText">Blueprints were used to create all functionality in the game. The Voxel Plugin is meant to be implemented with Blueprints.</p>
-            <a className="techText lightText" href="https://github.com/BridgerP/GIMM-400/tree/jasmine/UnrealMinigame">GitHub Code Repository</a>
+            <a className="techText lightText" href="https://github.com/BridgerP/GIMM-400/tree/jasmine/UnrealMinigame" rel="noopener noreferrer" target="_blank">GitHub Code Repository</a>
           </div>
           <div className="techContainer">
             <p className="techHead">Voxel Plugin</p>
             <p className="techText"> The free version of the Voxel Plugin was used for the game play area, adding/removing voxel cubes, and painting the added voxel cubes with custom textures.</p>
-            <a className="techText lightText" href="https://voxelplugin.com/">Voxel Plugin</a>
+            <a className="techText lightText" href="https://voxelplugin.com/" rel="noopener noreferrer" target="_blank">Voxel Plugin</a>
           </div>
           <div className="techContainer">
             <p className="techHead">Textures</p>

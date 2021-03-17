@@ -12,7 +12,7 @@ class RetailPage extends React.Component {
                 <div className="techContainer">
                     <p className="techHead">C++</p>
                     <p className="techText">I am developing the Retail Simulator with C++ in Unreal Engine 4. This is my second project in UE4, and I'm still figuring it out as I go.</p>
-                    <a className="techText lightText" href="https://github.com/Xblad3Mstr/Retail-Game">GitHub Code Repository</a>
+                    <a className="techText lightText" href="https://github.com/Xblad3Mstr/Retail-Game" rel="noopener noreferrer" target="_blank">GitHub Code Repository</a>
                 </div>
                 <div className="techContainer">
                     <p className="techHead">Blueprints</p>
@@ -21,7 +21,6 @@ class RetailPage extends React.Component {
                 <div className="techContainer">
                     <p className="techHead">ART</p>
                     <p className="techText"> All models, textures, and sounds were created or sourced by Mikenna Fuit.</p>
-                    <a className="techText lightText" href="/">Mikenna's Portfolio</a>
                 </div>
 
             </div>

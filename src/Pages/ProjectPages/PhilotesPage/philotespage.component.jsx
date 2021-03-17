@@ -12,7 +12,7 @@ class PhilotesPage extends React.Component {
                     <div className="techContainer">
                         <p className="techHead">C#</p>
                         <p className="techText">I am developing Philotes' Quest with C# within Unity 3D. The environment, functionality, and all models besides the collectable items and the characters, are all from the Unity Editor or from packages/assets obtained from the Unity Asset Store.</p>
-                        <a className="techText lightText" href="https://github.com/jasmineaimee/Mt_Ol">GitHub Code Repository</a>
+                        <a className="techText lightText" href="https://github.com/jasmineaimee/Mt_Ol" rel="noopener noreferrer" target="_blank">GitHub Code Repository</a>
                     </div>
                     <div className="techContainer">
                         <p className="techHead">Oculus SDK</p>

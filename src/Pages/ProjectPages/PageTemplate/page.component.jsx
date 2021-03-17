@@ -18,7 +18,7 @@ class Page extends React.Component {
           <div className="techContainer">
             <p className="techHead">Language</p>
             <p className="techText"> What language used for.</p>
-            <a className="techText lightText" href="https://github.com/jasmineyoung423">GitHub Code Repository</a>
+            <a className="techText lightText" href="https://github.com/jasmineyoung423" rel="noopener noreferrer" target="_blank">GitHub Code Repository</a>
           </div>
           <div className="techContainer">
             <p className="techHead">Tech2</p>

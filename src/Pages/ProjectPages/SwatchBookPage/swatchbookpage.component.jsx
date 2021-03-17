@@ -14,7 +14,7 @@ class SwatchBookPage extends React.Component {
                     <div className="techContainer">
                         <p className="techHead">Kotlin</p>
                         <p className="techText">I developed in Kotlin within Android Studio to build the actual prototype app. The app makes use of a custom Recycler View to automatically update the Inventory views.</p>
-                        <a className="techText lightText" href="https://github.com/jasmineyoung423/MakeupInventory">GitHub Code Repository</a>
+                        <a className="techText lightText" href="https://github.com/jasmineyoung423/MakeupInventory" rel="noopener noreferrer" target="_blank">GitHub Code Repository</a>
                     </div>
                     <div className="techContainer">
                         <p className="techHead">SQL Lite</p>

@@ -63,8 +63,8 @@ class App extends Component {
         </Switch>
         <footer className="footer foot medPadding align-items-center">
           <div className="footChild">
-            <a className="medPadding" href="https://github.com/jasmineyoung423"><img src={gitHubImage} alt="GitHub Logo" /></a>
-            <a className="medPadding" href="https://www.linkedin.com/in/jasmine-young-a43336195/"><img className="footerImage" src={linkedInImage} alt="LinkedIn Logo" /></a>
+            <a className="medPadding" href="https://github.com/jasmineyoung423" rel="noopener noreferrer" target="_blank"><img src={gitHubImage} alt="GitHub Logo" /></a>
+            <a className="medPadding" href="https://www.linkedin.com/in/jasmine-young-a43336195/" rel="noopener noreferrer" target="_blank"><img className="footerImage" src={linkedInImage} alt="LinkedIn Logo" /></a>
           </div>
           <div className="footChild">
             <p className="footerText medPadding">Jasmine Young 2021</p>
@@ -73,7 +73,7 @@ class App extends Component {
             <HashLink className="linkText medPadding" to="/about#contact">Contact Me!</HashLink>
           </div>
         </footer>
-        <div className="footerText d-flex align-items-center justify-content-center"><p>Icons made by <a className="lightText" href="https://www.flaticon.com/authors/dinosoftlabs" title="DinosoftLabs"> DinosoftLabs</a> from <a className="lightText" href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a></p></div>
+        <div className="footerText d-flex align-items-center justify-content-center"><p>Icons made by <a className="lightText" href="https://www.flaticon.com/authors/dinosoftlabs" title="DinosoftLabs" rel="noopener noreferrer" target="_blank"> DinosoftLabs</a> from <a className="lightText" href="https://www.flaticon.com/" title="Flaticon" rel="noopener noreferrer" target="_blank"> www.flaticon.com</a></p></div>
       </div>
     );
   }

@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.c1ab0e93.chunk.css",
-    "main.js": "/static/js/main.6b49fb24.chunk.js",
-    "main.js.map": "/static/js/main.6b49fb24.chunk.js.map",
+    "main.css": "/static/css/main.980f841e.chunk.css",
+    "main.js": "/static/js/main.1784d71e.chunk.js",
+    "main.js.map": "/static/js/main.1784d71e.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.2fd7dc15.js",
     "runtime-main.js.map": "/static/js/runtime-main.2fd7dc15.js.map",
     "static/css/2.ae9f1eb3.chunk.css": "/static/css/2.ae9f1eb3.chunk.css",
-    "static/js/2.22c05bb0.chunk.js": "/static/js/2.22c05bb0.chunk.js",
-    "static/js/2.22c05bb0.chunk.js.map": "/static/js/2.22c05bb0.chunk.js.map",
+    "static/js/2.9e28a9ad.chunk.js": "/static/js/2.9e28a9ad.chunk.js",
+    "static/js/2.9e28a9ad.chunk.js.map": "/static/js/2.9e28a9ad.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.ae9f1eb3.chunk.css.map": "/static/css/2.ae9f1eb3.chunk.css.map",
-    "static/css/main.c1ab0e93.chunk.css.map": "/static/css/main.c1ab0e93.chunk.css.map",
-    "static/js/2.22c05bb0.chunk.js.LICENSE.txt": "/static/js/2.22c05bb0.chunk.js.LICENSE.txt",
+    "static/css/main.980f841e.chunk.css.map": "/static/css/main.980f841e.chunk.css.map",
+    "static/js/2.9e28a9ad.chunk.js.LICENSE.txt": "/static/js/2.9e28a9ad.chunk.js.LICENSE.txt",
     "static/media/20210219_105719.3caa3764.jpg": "/static/media/20210219_105719.3caa3764.jpg",
     "static/media/abcStories.fc23863b.png": "/static/media/abcStories.fc23863b.png",
     "static/media/blockBuilder.43363e3b.png": "/static/media/blockBuilder.43363e3b.png",
     "static/media/envelope.1e522a66.png": "/static/media/envelope.1e522a66.png",
     "static/media/freeABC.3905d525.png": "/static/media/freeABC.3905d525.png",
     "static/media/handWashing.aaa54e28.png": "/static/media/handWashing.aaa54e28.png",
-    "static/media/heraSS.7d5df08d.png": "/static/media/heraSS.7d5df08d.png",
+    "static/media/heraSS.5d7e8a94.png": "/static/media/heraSS.5d7e8a94.png",
     "static/media/imitateABC.38a472b3.png": "/static/media/imitateABC.38a472b3.png",
     "static/media/models.111af44a.png": "/static/media/models.111af44a.png",
     "static/media/mythLogin.a94227ac.png": "/static/media/mythLogin.a94227ac.png",
@@ -35,8 +35,8 @@
   "entrypoints": [
     "static/js/runtime-main.2fd7dc15.js",
     "static/css/2.ae9f1eb3.chunk.css",
-    "static/js/2.22c05bb0.chunk.js",
-    "static/css/main.c1ab0e93.chunk.css",
-    "static/js/main.6b49fb24.chunk.js"
+    "static/js/2.9e28a9ad.chunk.js",
+    "static/css/main.980f841e.chunk.css",
+    "static/js/main.1784d71e.chunk.js"
   ]
 }

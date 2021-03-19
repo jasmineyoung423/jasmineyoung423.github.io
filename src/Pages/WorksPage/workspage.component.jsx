@@ -76,7 +76,7 @@ class WorksPage extends React.Component {
           image: mythText,
           imageAlt: "Myth Text Home Screen",
           link: "/work/mythText",
-          id: '07'
+          id: '08'
         }
       ]
     };

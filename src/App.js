@@ -11,6 +11,7 @@ import { HashLink } from 'react-router-hash-link';
 import HomePage from './Pages/HomePage/homepage.component';
 import AboutPage from './Pages/AboutPage/aboutpage.component';
 import WorksPage from './Pages/WorksPage/workspage.component';
+import ResumePage from './Pages/ResumePage/resumepage.component';
 import PlayPage from './Pages/PlayPage/playpage.component';
 import SwatchBookPage from './Pages/ProjectPages/SwatchBookPage/swatchbookpage.component';
 import ABCStoriesPage from './Pages/ProjectPages/ABCStoriesPage/abcstoriespage.component';
@@ -44,6 +45,7 @@ class App extends Component {
               <Link className="navLink" to="/">Home</Link>
               <Link className="navLink" to="/work">Work</Link>
               <Link className="navLink" to="/about">About</Link>
+              <Link className="navLink" to="/resume">Resume</Link>
             </Nav>
           </Navbar.Collapse>
         </Navbar>
@@ -58,6 +60,7 @@ class App extends Component {
           <Route exact path="/work/mythText" component={MythTextPage} />
           <Route exact path="/work/block" component={BlockPage} />
           <Route exact path="/work/handwashing" component={HandWashPage} />
+          <Route exact path="/resume" component={ResumePage} />
           <Route exact path="/play" component={PlayPage} />
           <Route path="/*" component={HomePage} />
         </Switch>

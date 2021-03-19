@@ -51,7 +51,7 @@ class SwatchBookPage extends React.Component {
                 </div>
                 <div className="descriptionContainer">
                     <div className="descriptionTextContainer">
-                        <p className="descriptionText">I made 3 wireframe pages in Adobe XD while conceptualizing Swatch Book. Shown here is the Inventory Page, Add/Edit Page, and the Details Page. I wanted something that made sense logically to input data, while also being nice to look at.</p>
+                        <p className="descriptionText">I made 3 wireframe pages in Adobe XD while conceptualizing Swatch Book. Shown here is the Inventory Page, Add/Edit Page, and the Details Page. I wanted the form to make sense logically to input data, while also being nice to look at.</p>
                     </div>
                     <div className="descriptionImageContainer">
                         <img className="iconImage mediumPadding" src={sBWireframe} alt="Three app wireframe pages showing Home, Add, and Details page mockup." />

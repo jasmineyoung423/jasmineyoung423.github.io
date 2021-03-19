@@ -31,7 +31,7 @@ class BlockPage extends React.Component {
         <div className="d-flex justify-content-center"><h2 className="techHead">Project Breakdown</h2></div>
         <div className="descriptionContainer">
           <div className="descriptionTextContainer">
-            <p className="descriptionText">My group for the class this project was made for, really wanted to see if we could create this game using voxels. So I set to work figuring out what to use and how to implement it. We had about 4-6 weeks to create this game in the autumn of 2020. And I was responsible for all of the development.</p>
+            <p className="descriptionText">My group really wanted to see if we could create this game using voxels. So I set to work figuring out what to use and how to implement it. We had about 4-6 weeks to create this game in the autumn of 2020. And I was responsible for all of the development.</p>
           </div>
           <div className="descriptionImageContainer">
             <img className="iconImage mediumPadding" src={blockB} alt="Screenshot of the Block Building game with all the different enviroment textures along the bottom." />

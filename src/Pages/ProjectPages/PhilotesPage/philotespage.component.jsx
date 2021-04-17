@@ -41,10 +41,10 @@ class PhilotesPage extends React.Component {
                 </div>
                 <div className="descriptionContainer">
                     <div className="descriptionImageContainer">
-                        <iframe className="videoFrame" src="https://www.youtube.com/embed/xAPBglrECRg" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen title="Philotes' Quest Demo"></iframe>
+                        <iframe className="videoFrame" src="https://www.youtube.com/embed/qyv4K70nxGs" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen title="Philotes' Quest Demo"></iframe>
                     </div>
                     <div className="descriptionTextContainer">
-                        <p className="descriptionText"> This is a progress video from April 2020. The video was taken for a sound design class, so that is the focus of this clip. But this shows basic functionality and play area layout. A lot has been changed and added since last year, but this is the most recent video I have.</p>
+                        <p className="descriptionText">This is the finished demo. The game itself could use some polishing, but this is the final version for my senior project in April 2021.</p>
                     </div>
                 </div>
                 <div className="descriptionContainer">

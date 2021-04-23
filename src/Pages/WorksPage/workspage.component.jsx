@@ -87,6 +87,9 @@ class WorksPage extends React.Component {
       <div>
         <div className="d-flex justify-content-center"><h2 className="pageHead">My Work</h2></div>
         <div className="mediumPadding">
+          <div className="demoReelContainer">
+              <iframe className="videoFrame" src="https://www.youtube.com/embed/G5ZP0pY2bU0" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen title="Philotes' Quest Demo"></iframe>
+          </div>
           <Cards games={this.state.games} />
         </div>
       </div>);

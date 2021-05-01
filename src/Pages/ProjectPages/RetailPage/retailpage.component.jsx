@@ -46,11 +46,12 @@ class RetailPage extends React.Component {
             </div>
             <div className="descriptionContainer">
                 <div className="descriptionTextContainer">
-                    <p className="descriptionText"> Progress Video: Coming Soon!</p>
+                    <p className="descriptionText">This is the finished demo. The game loop takes 16 minutes to play through the entire 8 game-hour shift.</p>
                 </div>
                 <div className="descriptionImageContainer">
-                    <iframe className="videoFrame" src="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title="Retail Simulator Demo"></iframe>
+                    <iframe className="videoFrame" src="https://youtube.com/embed/tuDnX0B6JVo" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen title="Retail Simulator Demo"></iframe>
                 </div>
+                
             </div>
         </div>
     );
